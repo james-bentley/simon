@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simon Game</title>
+    <link rel = "stylesheet" type = "text/css" href = "style.css">
+    <script src = "project.js"></script>
+</head>
+<body>
+    <header>
+        <div class = container>
+            <h1>
+                <i>Simon</i>
+            </h1>
+            <p>The game will tell you what colors to click on over five rounds, with the amount of random colors incrementing per round. The round number and colors will show up at the bottom of the screen after the "Start Game" button is pressed. You will have 3 seconds to click each color</p>
+        </div>
+    </header>
+        <div class = button>
+            <div class = container>
+                <button id = starter onclick = "game()">Start Game</button>
+            </div>
+            <div class = container>
+                <button id = green onclick = "buttonClick(id)">green</button>
+                <button id = red onclick = "buttonClick(id)">red</button>
+            </div>
+            
+            <div class = container>
+                <button id = "yellow" onclick = "buttonClick(id)">yellow</button>
+                <button id = "blue" onclick = "buttonClick(id)">blue</button>
+            <div>
+        </div>
+        <p id = "countdown"></p>
+        <p id= "output"></p> 
+</body>
+</html>
