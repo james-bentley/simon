@@ -2,7 +2,6 @@ const queue = [];
 const validColors = ["green","red","yellow","blue"];
 var color;
 var check;
-var audio = new Audio()
 
 function buttonClick(id)
 {
